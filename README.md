@@ -6,3 +6,4 @@
 - jupyter notebook
   - opens notebook in browser
   - links to notebook is in terminal 
+- pip install pandas
