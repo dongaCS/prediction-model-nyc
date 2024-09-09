@@ -36,7 +36,7 @@ This project will use Python [3.12.4 64-bit](https://www.python.org/downloads/)
 | BOROUGH | 3 | BROOKLYN |
 | BOROUGH | 4 | QUEENS |
 | BOROUGH | 5 | STATEN ISLAND |
-| NEIGHBORHOOD | Nothing at index 1168 | DELETED |
+| NEIGHBORHOOD | Nothing at index 1168 | DELETED ROW |
 
 ### Neighborhood Shapes
 | BoroCode | BoroName | CountyFIPS | NTA2020 | NTAName | NTAAbbrev | NTAType | CDTA2020 | Shape_Leng | Shape_Area | CDTAName | geometry |
@@ -49,19 +49,6 @@ This project will use Python [3.12.4 64-bit](https://www.python.org/downloads/)
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
 <thead>
 <tr style="text-align: right;">
