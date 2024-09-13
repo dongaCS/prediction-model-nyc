@@ -6,7 +6,6 @@
 | ![One Family Home](https://github.com/dongaCS/prediction-model-nyc/blob/main/bronx/bOne.png?raw=true) | ![Two Family Home](https://github.com/dongaCS/prediction-model-nyc/blob/main/bronx/bTwo.png?raw=true) | ![Three Family Home](https://github.com/dongaCS/prediction-model-nyc/blob/main/bronx/bThree.png?raw=true) |
 
 ### Prediction Delta 2022
-
 <div>
 <table border="1" class="dataframe">
 <thead>
