@@ -165,8 +165,8 @@ The final predictions of prices are then displayed on a map. Example of Queens, 
 | ![Queens One Family Home](https://github.com/dongaCS/prediction-model-nyc/blob/main/queens/qOne.png?raw=true) | ![Queens Two Family Home](https://github.com/dongaCS/prediction-model-nyc/blob/main/queens/qTwo.png?raw=true) | ![Queens Three Family Home](https://github.com/dongaCS/prediction-model-nyc/blob/main/queens/qThree.png?raw=true) |
 
 ## Predictions compared to 2022
-- Manhattan
+- [Manhattan](https://github.com/dongaCS/prediction-model-nyc/tree/main/manhattan)
 - Bronx
 - Brooklyn
-- Queens
+- [Queens](https://github.com/dongaCS/prediction-model-nyc/tree/main/queens)
 - Staten Island
