@@ -167,6 +167,6 @@ The final predictions of prices are then displayed on a map. Example of Queens, 
 ## Predictions compared to 2022
 - [Manhattan](https://github.com/dongaCS/prediction-model-nyc/tree/main/manhattan)
 - Bronx
-- Brooklyn
+- [Brooklyn](https://github.com/dongaCS/prediction-model-nyc/tree/main/brooklyn)
 - [Queens](https://github.com/dongaCS/prediction-model-nyc/tree/main/queens)
 - Staten Island
