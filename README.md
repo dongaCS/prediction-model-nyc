@@ -2,6 +2,7 @@
 
 ## Table of Contents
 - [Overview](#Overview)
+  - File Layout
 - [Setting up Notebook](#Setting-up-Notebook)
   - Installing Python
   - Dependencies
@@ -19,7 +20,29 @@
   - Staten Island
 
 ## Overview
-
+NYC is divided into five boroughs: Manhattan, the Bronx, Brooklyn, Queens, and Staten Island. Homes are categorized into one-family, two-family, and three-family types. This model focuses on the average sale price of each home type in their respective boroughs and aims to predict future average property prices.
+### File Layout
+```
+CSV
+  - 2010-2021.csv
+  - 2022.csv
+nynta2020_24b
+  - nynta2020 multi-polygon files
+[BOROUGH] (manhattan, bronx, brooklyn, queens, staten island)
+  - [BOROUGH]_one
+  - [BOROUGH]_two
+  - [BOROUGH]_three
+  - [BOROUGH]_test
+  - xOne.png
+  - xTwo.png
+  - xThree.png
+  - readme.md
+```
+- BOROUGH_one contains predictions for One Family Homes
+- BOROUGH_two contains predictions for Two Family Homes
+- BOROUGH_three contains predictions for Three Family Homes
+- BOROUGH_test contains prediction comparisons for ALL three home types to 2022's average sale price
+- .png are the predictions projected on to maps of neighborhoods
 
 ## Setting up Notebook
 ### Installing Python
