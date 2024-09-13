@@ -158,7 +158,7 @@ The model usings 2010-2021 property sales data. The dataset is split 80/20 where
 - independent_variables = ['YEAR', 'MEDIAN SALE PRICE', 'NUMBER OF SALES']
 - dependent_variable = ['AVERAGE SALE PRICE']
 
-The final predictions of prices are then displayed on a map. Example of Queens.
+The final predictions of prices are then displayed on a map. Example of Queens, darker regions are more expensive.
 | One | Two | Three |
 | --- | --- | --- |
 | ![Queens One Family Home](https://github.com/dongaCS/prediction-model-nyc/blob/main/queens/qOne.png?raw=true) | ![Queens Two Family Home](https://github.com/dongaCS/prediction-model-nyc/blob/main/queens/qTwo.png?raw=true) | ![Queens Three Family Home](https://github.com/dongaCS/prediction-model-nyc/blob/main/queens/qThree.png?raw=true) |
