@@ -193,3 +193,13 @@ The final predictions of prices are then displayed on a map. Example of Queens, 
 - [Brooklyn](https://github.com/dongaCS/prediction-model-nyc/tree/main/brooklyn)
 - [Queens](https://github.com/dongaCS/prediction-model-nyc/tree/main/queens)
 - [Staten Island](https://github.com/dongaCS/prediction-model-nyc/tree/main/staten%20island)
+
+$Remarks$: Looking at the delta values of all five boroughs, the model seems to have under-predicted a majority of home values. Using the following fragment of code to look at errors, it becomes clear that there is bias within the data.
+```
+mse = mean_squared_error(y_test, y_pred)
+mae = mean_absolute_error(y_test, y_pred)
+
+print(f'Mean Squared Error: {mse}')
+print(f'Mean Absolute Error: {mae}')
+```
+Some solutions to this are to increase complexity by adding more variables (e.g., supply and demand, inflation, and other economic factors), use a more complex model (e.g., polynomial regression, decision trees, or neural networks), or get more data (we wait). 
